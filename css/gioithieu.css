@@ -1,0 +1,12 @@
+.body_intro {
+    background-color: #EDBC6E;
+    font-family: 'Nunito', sans-serif;
+}
+
+h1, h2, .img-1 {
+    text-align: center;
+}
+
+.img-2 {
+    width: 1325px;
+}

@@ -1,0 +1,51 @@
+main {
+    font-family: 'Nunito', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.table-pro{
+    text-align: center;
+    margin: 10px;
+}
+
+table {
+    width: 100%;
+    
+}
+
+td, tr{
+    border: 1px solid rgba(199, 199, 199, 0.5);
+}
+
+.img-pro {
+    width: 100px;
+    height: 100px;
+}
+.img-del {
+    width: 50px;
+    height: 50px;
+}
+
+.pay-text{
+    font-size: 20px;
+    color: #236d5e;
+}
+
+.pay-btn {
+    color: dimgray;
+    border: 1.5px solid #8d8d8d;
+    border-radius: 5px;
+    width: 200px;
+    height: 30px;
+    transition: 0.3s;
+}
+
+.pay-btn:hover {
+    color: white;
+    background-color: #236d5e;
+    border: 1.5px solid #236d5e;
+}

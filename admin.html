@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="css/admin.css">
+    <title>Admin</title>
+    <link rel="shortcut icon" href="./img/logo/favicon.ico">
+</head>
+
+<body class="body-login">
+    <aside class="right-sidebar">
+        <div class="container">
+            <ul class="tab">
+                <li class="tab-item active" onclick="changePage('add')"><img src="img/logo/plus-27842_960_720.webp" alt="" class="icon"> </li>
+                <li class="tab-item" onclick="changePage('edit')"><img src="img/logo/0-5198_edit-pencil-png-pencil-edit-logo.png" alt="" class="icon"> </li>
+                <li class="tab-item"><a href="index.html"><img src="img/logo/Exit-Logo-PNG-Clipart-Background.png" alt="" class="icon"> </a></li>
+            </ul>
+        </div>
+
+        <div class="add-container" id="add">
+            <h2>THÊM SẢN PHẨM</h2>
+            <table>
+                <tr>
+                    <th>Mã:</th>
+                    <td><input id="masp" required maxlength="5" type="text" name="masp"
+                        placeholder="5 ký tự"></td>
+                </tr>
+                <tr>
+                    <th>Tên:</th>
+                    <td><input id="tensp" required type="text" name="tensp"
+                        placeholder="không rỗng"></td>
+                </tr>
+                <tr>
+                    <th>Loại:</th>
+                    <td>
+                        <select id="loaisp" required>
+                            <option value="">--Chọn--</option>
+                            <option value="dat">Đất</option>
+                            <option value="phan">Phân</option>
+                            <option value="gia">Giá thể</option>
+                            <option value="spk">Sản phẩm khác</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Số lượng:</th>
+                    <td><input id="sl" required pattern="\d" type="number" name="sl"
+                        placeholder="là số dương"></td>
+                </tr>
+                <tr>
+                    <th>Đơn giá:</th>
+                    <td><input id="dg" required pattern="\d" type="number" name="dg"
+                        placeholder="là số, đơn vị VNĐ"></td>
+                </tr>
+                <tr>
+                    <th>Hình ảnh:</th>
+                    <td><input id="ha" required type="file" name="ha"></td>
+                </tr>
+                <tr>
+                    <th></th>
+                    <td>
+                        <button id="btn" type="submit">Thêm</button>
+                        <button type="reset">Hủy</button>
+                    </td>
+                </tr>
+
+            </table>
+        </div>
+
+        <div class="edit-container" id="edit">
+            <h2>CHỈNH SỬA</h2>
+            <form name="regfr" action="#" method="POST" 
+            enctype="multipart/form-data"    
+                onsubmit="return frmValidate()">
+        <table>
+            <tr>
+                <th>Mã:</th>
+                <td><input value="sp001" required maxlength="5" type="text" name="masp"
+                    placeholder="5 ký tự"></td>
+            </tr>
+            <tr>
+                <th>Tên:</th>
+                <td><input value="Đất sạch hữu cơ trồng cây ăn quả" required type="text" name="tensp"
+                    placeholder="không rỗng"></td>
+            </tr>
+            <tr>
+                <th>Loại:</th>
+                <td>
+                    <select required>
+                        <option value="">--Chọn--</option>
+                            <option selected value="dat">Đất sạch hữu cơ</option>
+                            <option value="phan">Phân trùn quế</option>
+                            <option value="gia">Giá thể</option>
+                            <option value="spk">Sản phẩm khác</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <th>Số lượng:</th>
+                <td><input value="10" required pattern="\d" type="number" name="sl"
+                    placeholder="là số dương"></td>
+            </tr>
+            <tr>
+                <th>Đơn giá:</th>
+                <td><input value="500000" required pattern="\d" type="number" name="dg"
+                    placeholder="là số, đơn vị VNĐ">VNĐ</td>
+            </tr>
+            <tr>
+                <th>Hình ảnh:</th>
+                <td><input required type="file" name="ha"></td>
+            </tr>
+            <tr>
+                <th></th>
+                <td>
+                    <button id="btn" type="submit">Sửa</button>
+                    <button type="reset">Hủy</button>
+                </td>
+            </tr>
+
+        </table>
+    </form>
+        </div>
+    </aside>
+
+    <main class="main-content">
+        <div class="main-container">
+            <table class="table" id="list">
+                <thead>
+                    <tr>
+                        <th>Mã sản phẩm</th>
+                        <th>Tên sản phẩm</th>
+                        <th>Loại sản phẩm</th>
+                        <th>Số lượng</th>
+                        <th>Đơn giá</th>
+                        <th>Hình ảnh</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                
+                <tbody>
+
+                </tbody>
+            </table>
+        </div>
+    </main>
+    <script src="js/admin.js"></script>
+</body>
+
+</html>

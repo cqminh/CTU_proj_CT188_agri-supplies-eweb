@@ -1,0 +1,128 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* nav */
+
+.navbar {
+    background-color: #236d5e;
+}
+
+.nav-link {
+    color: aliceblue;
+}
+
+.nav-link:hover {
+    color: burlywood;
+}
+
+.input-group {
+    border: 1px solid aliceblue;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.input-group .btn {
+    color: aliceblue;
+}
+
+.input-group .btn:hover {
+    background-color: #23816e;
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+.form-control::placeholder {
+    font-size: 0.95rem;
+    color: #aaa;
+    font-style: italic;
+}
+
+.shop-btn {
+    margin-top: 6px;
+    text-align: center;
+    width: 40px;
+    color: aliceblue;
+    border: 1px solid aliceblue;
+    border-radius: 20px;
+    background-color: #236d5e;
+}
+
+.shop-btn:hover {
+    background-color: #23816e;
+}
+
+.account {
+    text-align: center;
+    width: 100px;
+    border: 1px solid aliceblue;
+    border-radius: 20px;
+    background-color: #236d5e;
+}
+
+.account:hover {
+    background-color: #23816e;
+}
+
+.account .link {
+    color: aliceblue;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.account .link:hover {
+    text-decoration: none;
+}
+
+
+/* footer */
+
+.footer-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    width: 100%;
+    height: 300px;
+    background-color: #236d5e;
+    color: aliceblue;
+    font-family: 'Nunito', sans-serif;
+}
+
+.footer-section .footer-container {
+    width: 1200px;
+    padding: 10px;
+}
+
+.footer-section .footer-container .contain-footer {
+    padding: 10px;
+}
+
+.footer-section .footer-container .brand-name {
+    font-size: 30px;
+}
+
+.footer-section .footer-container a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.footer-section .footer-container a:hover {
+    color: burlywood;
+}
+
+.footer-section .contact-us span {
+    position: relative;
+    margin-left: -16px;
+    left: 40px;
+}
+
+.copy-right {
+    font-size: 18px;
+    font-weight: 500;
+}
+

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/dndk.css">
+    <title>MHL - Đăng ký</title>
+    <link rel="shortcut icon" href="./img/logo/favicon.ico">
+</head>
+
+<body class="body-regis">
+    <!-- Form đăng ký -->
+    <div class="form regis">
+        <div class="regis-form">
+            <div class="brand-name">
+                <h3>MHL</h3>
+            </div>            
+                <form name="regfr" class="form-regis" action="index.html" method="post" enctype="multipart/form-data"
+							autocomplete="off" onsubmit="return frmValidate(this);">
+                <h3 class="form-title">Đăng ký</h3>
+                <table class="table-re">
+                    <tr class="form-item col-item1">
+                        <td >
+                            <h4>Họ và tên: </h4>
+                            <input type="text" name="name" id="name" class="form-control name" placeholder=" Vui lòng nhập họ và tên bạn"
+                                >
+                        </td>
+                        <td>
+                            <h4>Giới tính: </h4>
+                            <select name="gioitinh" id="gioitinh" class="form-control gioitinh">
+                                <option value="chon">--Chọn--</option>
+                                <option value="nam">Nam</option>
+                                <option value="nu">Nữ</option>
+                            </select>
+                        </td>
+                        
+                    </tr>
+                    <tr class="form-item col-item2">
+                        <td>
+                            <h4>Ngày/tháng/năm sinh: </h4>
+                            <input type="date" name="birthday" id="birthday" class="form-control birthday"
+                                >
+                            
+                        </td>
+                        <td>
+                            <h4>Địa chỉ: </h4>
+                            <input type="text" name="diachi" id="diachi" class="form-control diachi" placeholder=" Vui lòng nhập địa chỉ của bạn"
+                                >
+                        </td>
+                    </tr>
+                    <tr class="form-item col-item3">
+                        <td>
+                            <h4>Số điện thoại: </h4>
+                            <input type="tel" name="sdt" id="sdt" class="form-control sdt" placeholder=" Vui lòng nhập số điện thoại của bạn"
+                                >
+                        </td>
+                        <td>
+                            <h4>Email: </h4>
+                            <input type="email" name="mail" id="mail" class="form-control mail" placeholder=" Vui lòng nhập email của bạn (nếu có)">
+                        </td>
+                    </tr>
+                    <tr class="form-item col-item4">
+                        <td>
+                            <h4>Mật khẩu: </h4>
+                            <input type="password" name="mk" id="mk" class="form-control mk" placeholder=" Vui lòng nhập mật khẩu"
+                            >
+                        </td>
+                        <td>
+                            <h4>Xác nhận lại mật khẩu: </h4>
+                            <input type="password" name="pre_mk" id="pre_mk" class="form-control pre_mk" placeholder=" Vui lòng nhập lại mật khẩu"
+                            >
+                        </td>
+                    </tr>
+                </table>
+
+                <button class="submit" type="submit">
+                    Đăng ký
+                </button>
+
+                <div class="form-href">
+                    <span>Bạn đã có tài khoản?</span>
+                    <a href="dangnhap.html" class="signup-link">Đăng nhập ngay</a>
+                </div>
+            </form>
+
+        </div>
+    </div>
+    <script src="js/account.js"></script>
+</body>
+
+</html>

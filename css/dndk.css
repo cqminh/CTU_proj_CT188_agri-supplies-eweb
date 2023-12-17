@@ -1,0 +1,126 @@
+/* Đăng nhập - Đăng ký*/
+.body-login, .body-regis {
+    background-image: url(../img/background/bg-log4.jpg);
+    background-repeat: no-repeat;
+    background-position: 100% 0px;
+}
+
+.form {
+    margin: 0 auto;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.3);
+    box-shadow: 2px 2px rgba(199, 199, 199, 0.5);
+    border: 1px solid rgba(199, 199, 199, 0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+}
+
+.login {
+    width: 400px;
+    height: 520px;
+}
+
+.login-form,
+.regis-form {
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+}
+
+.login-form .brand-name h3,
+.regis-form .brand-name h3 {
+    font-size: 12px;
+    margin-top: 5px;
+    border-bottom: 1.5px dashed #35332F;
+}
+
+.login-form .form-title,
+.regis-form .form-title {
+    font-size: 35px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.login-form .form-item {
+    margin-top: 45px;
+}
+
+.form-item .form-control {
+    width: 320px;
+    height: 40px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+
+.login-form .submit,
+.regis-form .submit {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 120px;
+    height: 38px;
+    font-size: 17px;
+    font-family: 'Nunito', sans-serif;
+    border: 1.5px solid #454000;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #c7e7c8;
+}
+
+.login-form .submit:hover,
+.regis-form .submit:hover {
+    background-color: #94c396;
+}
+
+.login-form .form-forgot {
+    margin-bottom: 25px;
+}
+
+.regis {
+    /* width: 700px; */
+    margin: 10px 50px;
+    height: 580px;
+}
+
+.regis-form .form-item .form-control {
+    /* width: 150px; */
+    height: 40px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+
+.regis-form .col-item1,
+.regis-form .col-item2,
+.regis-form .col-item3,
+.regis-form .col-item4 {
+    display: flex;
+    text-align: left;
+}
+
+.regis-form .col-item1 td,
+.regis-form .col-item2 td,
+.regis-form .col-item3 td,
+.regis-form .col-item4 td {
+    margin: 0 50px 20px 30px;
+}
+
+.regis-form .submit {
+    margin-top: 5px;
+}
+
+.code, .ok{
+    border: 1px solid #454000;
+    border-radius: 2px;
+}
+
+.code {
+    width: 100px;
+}
+.ok {
+    background-color: #c7e7c8;
+    width: 20px;
+}

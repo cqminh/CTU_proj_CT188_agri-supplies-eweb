@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/dndk.css">
+    <title>MHL - Đăng nhập</title>
+    <link rel="shortcut icon" href="./img/logo/favicon.ico">
+</head>
+
+<body class="body-login">
+    <!-- Form đăng nhập -->
+    <div class="form login">
+        <div class="login-form">
+            <div class="brand-name"><h3>MHL</h3></div>
+            <form name="login" action="index.html" method="POST" enctype="application/x-www-form-urlencoded" 
+		onsubmit="return frmValidate2()" autocomplete="off">
+                <h3 class="form-title">Đăng nhập</h3>
+                <div class="form-item">
+                    <input type="text" name="phonenumber" id="phonenumber" class="form-control phonenumber" placeholder=" Số điện thoại" required>
+                </div>
+                <div class="form-item">
+                    <input type="password" name="password" id="password" class="form-control password" placeholder=" Mật khẩu">
+                </div>
+                <button class="submit" type="submit">
+                    Đăng nhập
+                </button>
+                
+            <div class="form-forgot">
+                <a href="" class="forgot-password-link">Quên mật khẩu?</a>
+            </div>
+            <div class="form-href">
+                <span>Bạn chưa có tài khoản?</span>
+                <a href="dangky.html" class="signup-link">Đăng ký ngay</a>
+            </div>
+            </form>
+            <div class="admin-section">
+                <br>
+                <p>Bạn là quản trị viên?</p>
+                <div class="ad-login">
+                    <input type="password" class="code" name="code" id="code" placeholder="Mã quản trị">
+                    <button class="ok" onclick="checkAd()">></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/account.js"></script>
+</body>
+
+</html>
