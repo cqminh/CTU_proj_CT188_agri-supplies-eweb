@@ -64,27 +64,45 @@
 
 #### Giao diện của web
 ##### Giao diện chung
+
 Trang chủ
+
 ![Trang chủ](/img/screenshoot/trangchu1.png)
 ![Trang chủ](/img/screenshoot/trangchu2.png)
+
 Footer
+
 ![Trang chủ](/img/screenshoot/footer.png)
+
 Đăng nhập & đăng ký
+
 ![dang nhap](/img/screenshoot/dangnhap.png)
 ![dang ky](/img/screenshoot/dangky.png)
+
 Sản phẩm
+
 ![sản phẩm](/img/screenshoot/sanpham.png)
+
 Chi tiết sản phẩm
+
 ![chitiet](/img/screenshoot/chitietdonhang1.png)
 ![chitiet](/img/screenshoot/chitietdonhang2.png)
+
 Giỏ hàng
+
 ![gio hang](/img/screenshoot/giohang.png)
+
 Giới thiệu
+
 ![gioi thieu](/img/screenshoot/gioithieu.png)
+
 Liên hệ
+
 ![lien he](/img/screenshoot/lienhe1.png)
 ![lien he](/img/screenshoot/lienhe2.png)
+
 ##### Giao diện admin
+
 ![admin](/img/screenshoot/admin.png)
 
 #### Ghi chú khác khi sử dụng
