@@ -98,7 +98,7 @@ Cart
 
 ![gio hang](/img/screenshoot/giohang.png)
 
-Instruction
+Instroduction
 
 ![gioi thieu](/img/screenshoot/gioithieu.png)
 
