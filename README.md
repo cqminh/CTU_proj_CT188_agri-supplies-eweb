@@ -1,4 +1,4 @@
-<a name="readme-top"></a>
+<a id="readme-top"></a>
 <div align="center">
   <h2 align="center">Đồ án môn học</h2>
 
@@ -33,7 +33,13 @@
         <li><a href="#chức-năng-của-admin">Chức năng của admin</a></li>
       </ul>
     </li>
-    <li><a href="#giao-diện-của-web">Giao diện</a></li>
+    <li>
+      <a href="#giao-diện-của-web">Giao diện</a>
+      <ul>
+        <li><a href="#giao-diện-chung">Giao diện chung</a></li>
+        <li><a href="#giao-diện-admin">Giao diện của admin</a></li>
+      </ul>
+    </li>
     <li><a href="#ghi-chú-khác-khi-sử-dụng">Ghi chú</a></li>
   </ol>
 </details>
@@ -110,4 +116,4 @@ Mã đăng nhập admin: adadad
 
 <p align="right">(<a href="#readme-top">về bên trên</a>)</p>
 
-<p align="center" style="font-weight: 600;">Cảm ơn đã ghé qua./.</p>
+<h6 align="center" style="font-weight: 600;">Cảm ơn đã ghé qua!./.</h6>
